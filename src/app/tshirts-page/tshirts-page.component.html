@@ -1,0 +1,19 @@
+<br><br>
+<div class="container">
+    <div class="row">
+        <ng-container *ngFor="let i of [0,1,2,3,4,5,6,7,8,9]">
+            <div class="col-sm">
+                <div class="card" style="width: 18rem;">
+                    <img src="{{ image_url[i] }}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ tshirt_name[i]}}</h5>
+                        <p class="card-text" style="color: rgb(255, 0, 0); font-weight: bold;">Rs. {{ tshirt_mrp[i] }}</p>
+                        <a href="#" class="btn btn-primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </ng-container>
+    </div>
+</div>
+
+<br><br>
